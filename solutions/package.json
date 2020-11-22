@@ -11,6 +11,7 @@
     "start": "node -r source-map-support/register lib/index.js",
     "build": "ttsc --p tsconfig.build.json",
     "dev": "node -r ./scripts/ts-node src/index.ts",
+    "dev:run": "node -r ./scripts/ts-node",
     "test": "jest"
   },
   "devDependencies": {

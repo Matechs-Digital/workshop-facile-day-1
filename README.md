@@ -14,7 +14,7 @@ We will on purpose ignore some of the aspects of typescript that are in the lang
 - Interfaces & Type Aliases
 - Algebraic Types: Unions, Intersections and the special cases (Products and Sums)
 - Named & Arrow Functions
-- Promise & Async / Await notation
+- Async problem, CPS / Promise / Async - Await
 - Structural vs Nominal Type Systems
 
 ## Repo Organization
