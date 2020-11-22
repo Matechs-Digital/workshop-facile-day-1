@@ -2,15 +2,28 @@
   "name": "solutions",
   "version": "1.0.0",
   "description": "Workshop Solutions",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "https://github.com/Matechs-Garage/workshop-facile-day-1",
   "author": "Michael Arnaldi",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node -r source-map-support/register lib/index.js",
+    "build": "tsc --p tsconfig.build.json",
+    "dev": "node -r ./scripts/ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.9",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
     "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.19",
+    "reflect-metadata": "^0.1.13"
   }
 }
