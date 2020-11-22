@@ -5,6 +5,7 @@
     "target": "ES2017",
     "module": "CommonJS",
     "strict": true,
+    "strictNullChecks": true,
     "outDir": "lib",
     "noErrorTruncation": true,
     "noEmit": true,
@@ -14,6 +15,7 @@
     "declaration": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
+    "removeComments": false,
     "paths": {
       "@app/*": ["src/*"]
     },

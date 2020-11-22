@@ -51,7 +51,7 @@ export enum Color {
   Green,
 }
 
-export const myBlue = Color.Blue;
+export const myBlue: Color = Color.Blue;
 
 /**
  * Unknown
@@ -140,3 +140,16 @@ export const myRecord3: Record<"b" | "c", string> = {
   a: 1,
   b: "b",
 };
+
+/**
+ * Map
+ */
+export const myMap = new Map([
+  ["a", 1],
+  ["b", 2],
+]);
+
+/**
+ * Set
+ */
+export const mySet = new Set(["a", "b"]);
