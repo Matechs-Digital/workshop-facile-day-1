@@ -13,6 +13,10 @@
     "baseUrl": ".",
     "declaration": true,
     "noUnusedParameters": true,
-    "noUnusedLocals": true
+    "noUnusedLocals": true,
+    "paths": {
+      "@app/*": ["src/*"]
+    },
+    "plugins": [{ "transform": "typescript-transform-paths" }]
   }
 }

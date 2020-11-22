@@ -9,8 +9,8 @@
   "private": true,
   "scripts": {
     "start": "node -r source-map-support/register lib/index.js",
-    "build": "tsc --p tsconfig.build.json",
-    "dev": "node -r ./scripts/ts-node -r tsconfig-paths/register src/index.ts",
+    "build": "ttsc --p tsconfig.build.json",
+    "dev": "node -r ./scripts/ts-node src/index.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -20,10 +20,12 @@
     "ts-jest": "^26.4.4",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.1.2"
+    "ttypescript": "^1.5.12",
+    "typescript": "^4.1.2",
+    "typescript-transform-paths": "^2.0.3"
   },
   "dependencies": {
-    "source-map-support": "^0.5.19",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "source-map-support": "^0.5.19"
   }
 }

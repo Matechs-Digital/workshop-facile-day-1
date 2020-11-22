@@ -1,4 +1,3 @@
-// eslint-disable-next-line
 module.exports = {
     testEnvironment: "node",
     rootDir: "./",
@@ -18,7 +17,8 @@ module.exports = {
     moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
     globals: {
         "ts-jest": {
-            tsconfig: "<rootDir>/tsconfig.json",
+            tsconfig: "<rootDir>/tsconfig.jest.json",
+            compiler: "ttypescript"
         }
     }
 }

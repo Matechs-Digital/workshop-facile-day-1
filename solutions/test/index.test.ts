@@ -1,4 +1,4 @@
-import * as App from "../src";
+import * as App from "@app/math";
 
 describe("App Suite", () => {
   it("add", () => {

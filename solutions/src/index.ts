@@ -1,3 +1,4 @@
-export function add(x: number, y: number): number {
-  return x + y;
-}
+// istanbul ignore file
+import { add } from "@app/math";
+
+console.log(add(1, 2));
