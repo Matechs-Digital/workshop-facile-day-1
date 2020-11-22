@@ -1,1 +1,3 @@
-console.log("hello world");
+export function add(x: number, y: number): number {
+  return x + y;
+}
