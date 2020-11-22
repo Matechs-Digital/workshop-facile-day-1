@@ -1,0 +1,16 @@
+{
+  "name": "solutions",
+  "version": "1.0.0",
+  "description": "Workshop Solutions",
+  "main": "index.js",
+  "repository": "https://github.com/Matechs-Garage/workshop-facile-day-1",
+  "author": "Michael Arnaldi",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2"
+  }
+}
