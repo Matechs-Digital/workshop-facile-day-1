@@ -11,9 +11,9 @@ We will on purpose ignore some of the aspects of typescript that are in the lang
 - Course intro, why TypeScript and what kind of TypeScript.
 - Project Setup and Tools, (vscode, typescript, eslint, jest)
 - Primitive Types
+- Named & Arrow Functions
 - Interfaces & Type Aliases
 - Algebraic Types: Unions, Intersections and the special cases (Products and Sums)
-- Named & Arrow Functions
 - Async problem, CPS / Promise / Async - Await
 - Structural vs Nominal Type Systems
 
